@@ -1,0 +1,61 @@
+.dbutton {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    margin-top: 500px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 13px 60px;
+
+
+    border-radius: 100px;
+    transition: .4s;
+}
+
+.dbutton:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    color: #f9004d;
+    /* cursor: pointer; */
+}
+
+.ru-logo {
+    width: 30rem;
+
+}
+
+.hl {
+    margin-top: 50px;
+}
+
+.container-box {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .dbutton {
+        font-size: .75rem;
+        padding: 5px 20px;
+    }
+
+    .container-box {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+}

@@ -407,49 +407,8 @@ footer .text {
     display: none;
 }
 
-/* -------------- */
 
-.dbutton {
-    background-color: #f9004d;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    margin-top: 500px;
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 13px 60px;
-
-
-    border-radius: 100px;
-    transition: .4s;
-}
-
-.dbutton:hover {
-    background-color: transparent;
-    border: 2px solid #f9004d;
-    color: #f9004d;
-    /* cursor: pointer; */
-}
-
-.ru-logo {
-    width: 30rem;
-
-}
-
-.hl {
-    margin-top: 50px;
-}
-
-.container-box {
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px;
-}
-
-
+/* Mobile Devices */
 @media only screen and (max-width: 576px) {
 
     .pra p,
@@ -524,6 +483,7 @@ footer .text {
 
 }
 
+/* Tablet Devices */
 @media only screen and (min-width: 576px) and (max-width: 992px) {
 
     .pra p,
@@ -598,7 +558,7 @@ footer .text {
 
 }
 
-
+/* Small Laptop Devices */
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
 
     .pra p,
@@ -664,23 +624,3 @@ footer .text {
     }
 
 }
-
-/* @media (max-width: 768px) {
-
-    .dbutton {
-        font-size: .75rem;
-        padding: 5px 20px;
-    }
-
-    .container-box {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    p {
-        margin: 0px;
-        padding: 0px;
-    }
-
-
-} */
